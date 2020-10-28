@@ -1,11 +1,11 @@
-import React from 'react'
-import BookSearchContainer from './Containers/BookSearchContainer'
+import React from 'react';
+import BookSearchContainer from './Containers/BookSearchContainer';
 const App = () => {
   return (
     <div>
-      <BookSearchContainer/>
+      <BookSearchContainer />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;

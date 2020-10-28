@@ -1,8 +1,26 @@
 body {
   background: url('../Sources/1-1.jpg');
-  div {
+  background-size: cover;
+  background-repeat: repeat;
+  h1 {
+    color: rgb(201, 201, 201);
+    font-size: 8rem;
     display: flex;
     justify-content: center;
-    margin-top: 120px;
+    background: -webkit-linear-gradient(#213175, #0ce682);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 auto;
+  }
+  .searchBar {
+    display: flex;
+    justify-content: center;
+    .sicon {
+      padding-top: 18px;
+      padding-left: 20px;
+      font-size: 30px;
+      color: #0ce682;
+      cursor: pointer;
+    }
   }
 }
